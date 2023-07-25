@@ -11,7 +11,7 @@ module ITCAutoingest
     base_uri 'https://reportingitc.apple.com'
 
     REPORT_TYPES = ['Sales']
-    REPORT_SUB_TYPES = ['Summary', 'Opt-In']
+    REPORT_SUB_TYPES = ['Summary', 'Opt-In', 'Detailed']
     REPORT_TIMEFRAME = ['Daily', 'Weekly']
 
     def initialize(username, password, vndnumber)
